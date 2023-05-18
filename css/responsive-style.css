@@ -1,0 +1,362 @@
+/* ================================
+========Media Query 1400+px=========
+================================ */
+@media (min-width: 1400px) {
+  /* Services CSS Part Start */
+
+  /* Services CSS Part End */
+}
+/* ================================
+========Media Query 1399px=========
+================================ */
+@media (max-width: 1399px) {
+  /* Common CSS Part Start */
+
+  /* Common CSS Part End */
+}
+/* ================================
+========Media Query 1199px=========
+================================ */
+@media (max-width: 1199px) {
+  /* Common CSS Part Start */
+
+  /* Common CSS Part End */
+}
+/* ================================
+========Media Query 991px=========
+================================ */
+@media (max-width: 991px) {
+  /* Common CSS Part Start */
+
+  /* Common CSS Part End */
+}
+/* ================================
+========Media Query 799px=========
+================================ */
+@media (max-width: 799px) {
+  .section-p1 {
+    padding: 40px 40px;
+  }
+  /* Navbar CSS Part Start */
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: #e3e6f3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.4s;
+  }
+  #navbar.active {
+    right: 0px;
+  }
+  #navbar li {
+    margin-bottom: 25px;
+  }
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+  #mobile i {
+    color: #252525;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+  #close {
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #222222;
+    font-size: 24px;
+  }
+  #lg-bag {
+    display: none;
+  }
+  /* Navbar CSS Part End */
+  /* Hero Section CSS Part Start */
+  #hero {
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+  }
+  /* Hero Section CSS Part End */
+  /* Feature CSS Part Start */
+  #feature {
+    justify-content: center;
+  }
+  #feature .feature-box {
+    margin: 15px 15px;
+  }
+  /* Feature CSS Part End */
+  /* Feature Product CSS Part Start */
+  #feature-product .product-container {
+    justify-content: center;
+  }
+  #feature-product .product-item {
+    margin: 15px;
+  }
+  /* Feature Product CSS Part End */
+  /* Banner CSS Part Start */
+  #banner {
+    height: 30vh;
+  }
+  /* Banner CSS Part End */
+  /* Small Banner CSS Part Start */
+  #small-banner {
+    flex-wrap: wrap;
+  }
+  #small-banner .small-banner-box {
+    min-width: 100%;
+    height: 30vh;
+  }
+  #small-banner .small-banner-box2 {
+    margin-left: 0;
+  }
+  /* Small Banner CSS Part End */
+  /* Text Banner CSS Part Start */
+  #text-banner {
+    padding: 0 40px;
+  }
+  #text-banner .text-banner-box {
+    width: 28%;
+  }
+  #text-banner .text-banner-box h2 {
+    line-height: 24px;
+    font-size: 18px;
+  }
+  /* Text Banner CSS Part End */
+  /* Newsletter CSS Part Start */
+  #newsletter .form {
+    width: 85%;
+  }
+  /* Newsletter CSS Part End */
+  /* Blog Page Blog CSS Part Start */
+  #blog .blog-box h1 {
+    top: -40px;
+    font-size: 54px;
+  }
+  #blog {
+    padding: 100px 50px 0 50px;
+  }
+  /* Blog Page Blog CSS Part End */
+  /* About Page About Head CSS Part Start */
+  #about-head {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #about-head img {
+    width: 100%;
+    height: auto;
+  }
+  #about-head div {
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 0;
+  }
+  #about-head div h2 {
+    text-align: center;
+  }
+  #about-app .video {
+    width: 100%;
+  }
+  /* About Page About Head CSS Part End */
+  /* Contact Page Form Details CSS Part Start */
+  #form-details {
+    margin: 20px 40px 40px 40px;
+    padding: 40px 20px;
+  }
+  #form-details form {
+    width: 50%;
+  }
+  /* Contact Page Form Details CSS Part End */
+  /* Cart Page Cart Add CSS Part Start */
+  #cart-add {
+    flex-direction: column;
+  }
+  #coupon {
+    width: 100%;
+  }
+  #subtotal {
+    width: 100%;
+    padding: 20px;
+  }
+  /* Cart Page Cart Add CSS Part End */
+}
+/* ================================
+========Media Query 477px=========
+================================ */
+@media (max-width: 477px) {
+  /* Common CSS Part Start */
+  .section-p1 {
+    padding: 20px;
+  }
+  #header {
+    padding: 10px 30px;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  /* Common CSS Part End */
+  /* Hero Image CSS Part Start */
+  #hero {
+    padding: 0 20px;
+    background-position: 55%;
+  }
+  /* Hero Image CSS Part End */
+  /* Feature CSS Part Start */
+  #feature .feature-box {
+    width: 155px;
+    margin: 0 0 15px 0;
+  }
+  #feature {
+    justify-content: space-between;
+  }
+  /* Feature CSS Part End */
+  /* Feature Product CSS Part Start */
+  #feature-product .product-item {
+    width: 100%;
+  }
+  /* Feature Product CSS Part End */
+  /* Banner CSS Part Start */
+  #banner {
+    height: 40vh;
+  }
+  /* Banner CSS Part End */
+  /* Samll Banner CSS Part Start */
+  #small-banner {
+    flex-wrap: wrap;
+  }
+  #small-banner .small-banner-box {
+    height: 40vh;
+  }
+  #small-banner .small-banner-box2 {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  #small-banner .small-banner-box h2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  /* Samll Banner CSS Part End */
+  /* Text Banner CSS Part Start */
+  #text-banner {
+    padding: 0 20px;
+  }
+  #text-banner .text-banner-box {
+    width: 100%;
+  }
+  /* Text Banner CSS Part End */
+  /* Newsletter CSS Part Start */
+  #newsletter {
+    padding: 40px 20px;
+  }
+  #newsletter .form {
+    width: 100%;
+  }
+  /* Newsletter CSS Part End */
+  /* Footer CSS Part Start */
+  footer .col .row {
+    display: flex;
+  }
+  footer .col h4 {
+    padding-bottom: 10px;
+  }
+  footer .col .row img {
+    width: 80%;
+  }
+  footer .col .row .google-play-store-app{
+    margin-left: 20px;
+  }
+  footer .copyright {
+    text-align: center;
+  }
+  footer .copyright p {
+    font-size: 10px;
+  }
+  /* Footer CSS Part End */
+  /*======== Single Product Page ========*/
+  /* Single Product Part CSS Start */
+  #product-details {
+    display: flex;
+    flex-direction: column;
+  }
+  #product-details .single-product-image {
+    width: 100%;
+    margin-right: 0;
+  }
+  #product-details .single-product-details {
+    width: 100%;
+  }
+  /* Single Product Part CSS End */
+  /*======== Blog Page ========*/
+  /* Blog Page Blog CSS Part Start */
+  #blog {
+    padding: 100px 20px 0 20px;
+  }
+  #blog .blog-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #blog .blog-box .blog-image {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  #blog .blog-box .blog-details {
+    width: 100%;
+  }
+  #blog .blog-box h1 {
+    top: -36px;
+    font-size: 40px;
+  }
+  /* Blog Page Blog CSS Part End */
+  /*======== About Page ========*/
+  /* About Page About Head CSS Part Start */
+  #about-head div {
+    padding-left: 0px;
+  }
+  /* About Page About Head CSS Part End */
+  /* About Page About App CSS Part Start */
+  #about-app h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  /* About Page About App CSS Part End */
+  /*======== Contact Page ========*/
+  /* Contact Page Contact Details CSS Part Start */
+  #contact-details {
+    flex-direction: column;
+  }
+  #contact-details .details {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #contact-details .map {
+    width: 100%;
+  }
+  /* Contact Page Contact Details CSS Part End */
+  /* Contact Page Form Details CSS Part Start */
+  #form-details {
+    margin: 10px;
+    padding: 30px 10px;
+    flex-wrap: wrap;
+  }
+  #form-details form {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  /* Contact Page Form Details CSS Part End */
+}
